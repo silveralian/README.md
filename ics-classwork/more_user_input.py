@@ -1,27 +1,17 @@
-print("First name:")
-input()
+print("Please enter the following information so I can sell it for a profit!")
+print()
 
-print("Last name:") 
-input()
+first_name = input("First name: ")
+last_name = input("Last name: ")
+grade = int(input("Grade (9-12): "))
+student_id = int(input("Student ID: "))
+login = input("Login: ")
+average = float(input("Average: "))
 
-print("Grade (9-12):") 
-input()
-
-print("Student ID:")
-input()
-
-print("Login:")
-input() 
-
-print("Average:")
-input()
-
-input()
-
+print()
 print("Your information:")
-print("      First name: {First name:}")
-print("      Last name:  {Last name:}")
-print("      Grade (9-12): {Grade(9-12") 
-print("      Student ID: {Student ID")
-print("      Login: {Login}")
-print("      Average: {Average:") 
+print(f"    Login:     {login}")
+print(f"    ID:        {student_id}")
+print(f"    Name:      {last_name}, {first_name}")
+print(f"    Average:   {average} %")
+print(f"    Grade:     {grade}")
