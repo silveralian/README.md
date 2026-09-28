@@ -16,11 +16,13 @@ print("They sold for $" + str(price) + " each.")
 # dot format
 print("I wanted to purchase {} of them.".format(quantity))
 
-# f-string 
-print(f"The total price, with tax included, was ${total}.")
+# f-string
+print(f"The subtotal is ${subtotal}.")
 
 # f-string
 print(f"The tax is ${tax}.")
 
 # f-string
 print(f"The total price, with tax included, was ${total}.")
+
+# Q1: The f before the string was missing.
