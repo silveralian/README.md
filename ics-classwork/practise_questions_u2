@@ -1,5 +1,5 @@
-name = input(" Hello, what's your name? ")
-print = input("Hi! {name} How much does it cost with tax?)
+name = input("Hello, what's your name? ")
+cost = input(f"Hi, {name}! How much does it cost? ")
 cost = float(input("Enter the cost of the item: "))
 tax_rate = 0.13
 total = cost * (1 + tax_rate)
@@ -13,3 +13,6 @@ print(f' Your name starts with "{first_letter}" and ends with "{last_letter}".')
 word = input("enter a word: ")
 middle_slice = word[1:-1] 
 print(f"Word without first and last letter :{middle_slice}")
+
+
+
