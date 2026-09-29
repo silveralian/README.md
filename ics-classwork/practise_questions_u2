@@ -1,0 +1,4 @@
+name = input("name")
+cost = input("cost") 
+
+print("Hello and how are you? What''s your name? ")
