@@ -1,4 +1,2 @@
-name = input("name")
-cost = input("cost") 
-
-print("Hello and how are you? What''s your name? ")
+name = input(" Hello, what's your name? ")
+price = input("Hi! {name} How much does it cost with tax? 
