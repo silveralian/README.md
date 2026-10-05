@@ -1,0 +1,11 @@
+print(f"'apple' comes before 'banana': {'apple' < 'banana'}")
+print(f"'cat' comes before 'dog': {'cat' < 'dog'}")
+print(f"'fish' comes before 'zebra': {'fish' < 'zebra'}")
+print(f"'green' comes before 'yellow': {'green' < 'yellow'}")
+print(f"'book' comes before 'computer': {'book' < 'computer'}")
+
+print(f"'zoo' comes after 'house': {'zoo' > 'house'}")
+print(f"'tiger' comes after 'rabbit': {'tiger' > 'rabbit'}")
+print(f"'winter' comes after 'summer': {'winter' > 'summer'}")
+print(f"'orange' comes after 'grape': {'orange' > 'grape'}")
+print(f"'music' comes after 'apple': {'music' > 'apple'}")
