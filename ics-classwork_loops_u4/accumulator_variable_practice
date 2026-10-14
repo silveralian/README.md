@@ -1,1 +1,45 @@
+#1 
 
+n = 1 
+total = 0 
+
+while n <= 10:
+  total += n 
+  n+=1
+print(total)
+
+#2 
+n = 100
+total = 0 
+
+while total <= 200:
+  total += n 
+  n+=1 
+print(total)
+
+#3 
+n = 100
+1total = 0 
+
+while total <= 200:
+  total += n 
+  n +=1 
+print(total)
+
+n = 200
+2total += n 
+
+while total <= 300:
+  total += n 
+  n += 1
+difference = 1total - 2total 
+print(difference)
+
+#4 
+n = 1000
+total += n
+
+while total <= 10000:
+  total += n 
+  n += 5
+print (total)
