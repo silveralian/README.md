@@ -1,22 +1,6 @@
 number=[] 
-number.append(-113)
-number.append(-113)
-number.append(-113)
-number.append(-113)
-number.append(-113)
-number.append(-113)
-number.append(-113)
-number.append(-113)
-number.append(-113)
+for n in range(10): 
 number.append(-113)
 
-print("Slot len(1) contains a (number)")
-print("Slot len(2) contains a (number)")
-print("Slot len(3) contains a (number)")
-print("Slot len(4) contains a (number)")
-print("Slot len(5) contains a (number)")
-print("Slot len(6) contains a (number)")
-print("Slot len(7) contains a (number)")
-print("Slot len(8) contains a (number)")
-print("Slot len(9) contains a (number)")
-print("Slot len(10) contains a (number)")
+for n in range (len(number)): 
+  print("Slot {n} contains a {number[n]}")
