@@ -1,3 +1,28 @@
-import random 
-number = [] 
-  for n in range(100): 
+
+import random
+
+list1 = []
+list2 = []
+
+# Create 10 random integers
+for i in range(10):
+    number = random.randint(1, 100)
+    list1.append(number)
+
+# Copy each number into the second list
+for i in range(len(list1)):
+    list2.append(list1[i])
+
+# Change the last number in the first list
+list1[-1] = -7
+
+# Display both lists
+print("List 1:", end=" ")
+for number in list1:
+    print(number, end=" ")
+
+print()
+
+print("List 2:", end=" ")
+for number in list2:
+    print(number, end=" ")
