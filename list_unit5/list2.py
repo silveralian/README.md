@@ -1,9 +1,10 @@
-import random 
 
-list = [] 
+import random
 
-while len(list) < 10:
-    list.append(random.randint(1,101))
+numbers = []
 
-for n in range (len(list)):
-    print(f"Slot {n} contains a {list[n]}")
+for i in range(10):
+    numbers.append(random.randint(1, 100))
+
+for i in range(len(numbers)):
+    print("Slot", i, "contains a", numbers[i])
