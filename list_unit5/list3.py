@@ -1,8 +1,10 @@
-import random 
-number = [] 
 
-for n in range(1000): 
-  numbers.append(random.randint(10,99))
+import random
 
-for n in number:
-  print (n, end="  ")
+numbers = []
+
+for i in range(1000):
+    numbers.append(random.randint(10, 99))
+
+for i in range(len(numbers)):
+    print(numbers[i], end="  ")
