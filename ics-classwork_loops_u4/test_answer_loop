@@ -1,1 +1,21 @@
+#2 
+total = 0 
+for n in range(100):
+    n = int(input("Enter a number: ")
+    total += n 
 
+average = total / 100 
+print(average)
+
+#3 
+original = input("Enter original strain state: ")
+result = " " 
+died = 0 
+for strain in original:
+  if strain == "v":
+    result += "vvc"
+  elif # strain == "c"
+    died += 1
+
+print(f"result: {result}")
+print(f"{died} strains dies off.")
