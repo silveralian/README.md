@@ -14,7 +14,7 @@ died = 0
 for strain in original:
   if strain == "v":
     result += "vvc"
-  elif # strain == "c"
+  elif strain == "c":
     died += 1
 
 print(f"result: {result}")
