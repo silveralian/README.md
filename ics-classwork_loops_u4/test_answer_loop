@@ -16,6 +16,6 @@ for strain in original:
     result += "vvc"
   elif strain == "c":
     died += 1
-
+print(... done)
 print(f"result: {result}")
 print(f"{died} strains dies off.")
